@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20191203 08:25:27.746" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
-<suite source="/home/nhht77/Desktop/junit4/Make_change.robot" id="s1" name="Make change">
+<robot rpa="false" generated="20191203 09:05:17.310" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<suite source="/home/nhht77/Desktop/Make_change.robot" id="s1" name="Make change">
 <test id="s1-t1" name="Create Change">
 <kw name="Start Process" library="Process">
 <doc>Starts a new process on background.</doc>
 <arguments>
-<arg>./make_fakechange.sh</arg>
+<arg>./junit4/make_fakechange.sh</arg>
 </arguments>
-<msg timestamp="20191203 08:25:27.771" level="INFO">Starting process:
-./make_fakechange.sh</msg>
-<status status="PASS" endtime="20191203 08:25:27.780" starttime="20191203 08:25:27.771"></status>
+<msg timestamp="20191203 09:05:17.335" level="INFO">Starting process:
+./junit4/make_fakechange.sh</msg>
+<status status="PASS" endtime="20191203 09:05:17.344" starttime="20191203 09:05:17.334"></status>
 </kw>
-<status status="PASS" endtime="20191203 08:25:27.780" critical="yes" starttime="20191203 08:25:27.771"></status>
+<status status="PASS" endtime="20191203 09:05:17.344" critical="yes" starttime="20191203 09:05:17.334"></status>
 </test>
-<status status="PASS" endtime="20191203 08:25:27.781" starttime="20191203 08:25:27.749"></status>
+<status status="PASS" endtime="20191203 09:05:17.345" starttime="20191203 09:05:17.312"></status>
 </suite>
 <statistics>
 <total>
