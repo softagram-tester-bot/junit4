@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20191203 08:08:05.285" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<suite source="/home/nhht77/Desktop/junit4/Make_change.robot" id="s1" name="Make change">
+<test id="s1-t1" name="Create Change">
+<kw name="Start Process" library="Process">
+<doc>Starts a new process on background.</doc>
+<arguments>
+<arg>./make_fakechange.sh</arg>
+</arguments>
+<msg timestamp="20191203 08:08:05.310" level="INFO">Starting process:
+./make_fakechange.sh</msg>
+<status status="PASS" endtime="20191203 08:08:05.318" starttime="20191203 08:08:05.310"></status>
+</kw>
+<status status="PASS" endtime="20191203 08:08:05.319" critical="yes" starttime="20191203 08:08:05.309"></status>
+</test>
+<status status="PASS" endtime="20191203 08:08:05.319" starttime="20191203 08:08:05.287"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Make change" pass="1">Make change</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
